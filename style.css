@@ -267,11 +267,8 @@ header.masthead{
 }
 footer{
     padding:2rem;
-    /* bottom:0; */
     position: sticky;
-    /* display:flex;
-    justify-content: space-around; */
-    margin: auto;
+    margin-top: 2rem;
     align-items: center;
     align-self: flex-end;
     background-color: var(--background-color);
