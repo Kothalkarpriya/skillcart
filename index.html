@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Ometrics - place all of this script before </head> -->
+<object id="49c7af857aeeee9f81d7f33484a5ca00">
+    <script type="text/javascript">var OMETRICS_WIDGET = "49c7af857aeeee9f81d7f33484a5ca00";</script>
+    <script type="text/javascript">var HOST_URL = 'www.ometrics.com';</script>
+    <script type="text/javascript" language="javascript" data-my="49c7af857aeeee9f81d7f33484a5ca00" src="https://www.ometrics.com/widget/widget-ometrics.js"></script>
+    </object>
+    <!-- Ometrics - place all of this script before </head> -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -398,34 +405,44 @@
                     Put your details here and we will reach you
                 </h3>
             </div>
-            <form action="contactform.php" method="post" id="contactForm">
-                <div class="input-name">
-                    <input type="text" class="name">
+            <form action="https://formsubmit.co/priyakothalkar2973@gmail.com" method="POST">
+                <div class="form-container">
+                    <div class="form-row">
+                        <!-- input-name -->
+                        <input type="text" name="name" class="name" placeholder="Your name *" required>
+                        <!-- input-email -->
+                        <input type="email" name="email" class="email" placeholder="Your Email *" required>
+                        <!-- input-number -->
+                        <input type="number" name="phone" class="phone" placeholder="Your Phone *" required>
+                        <!-- input-message -->
+                        <textarea type="text" name="message" class="message" placeholder="Write your message here*"
+                            required></textarea>
+                    </div>
+                    <div class="btn-block">
+                        <button type="submit" class="form-btn text-uppercase">Send message</button>
+                    </div>
                 </div>
+                <input type="hidden" name="_subject" value="Coustomer email , WOhooo!">
             </form>
         </div>
     </section>
 
     <footer class="footer">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-4">Copyright © Skillcart.org 2020</div>
-                <div class="col-lg-4">
-                    <a href="#" class="footer-link btn btn-social">
-                        <i class="fa fa-twitter"></i>
-                    </a>
-                    <a href="#" class="footer-link btn btn-social">
-                        <i class="fa fa-facebook"></i>
-                    </a>
-                    <a href="#" class="footer-link btn btn-social">
-                        <i class="fa fa-linkedin"></i>
-                    </a>
-                </div>
-                <div class="col-lg-4">
-                    <a href="#" class="footer-link">Privacy Policy</a>
-                    <a href="#" class="footer-link">Terms of Use</a>
-                </div>
-            </div>
+        <div class="col-lg-4">Copyright © Skillcart.org 2020</div>
+        <div class="col-lg-4">
+            <a href="#" class="footer-link btn btn-social">
+                <i class="fa fa-twitter"></i>
+            </a>
+            <a href="#" class="footer-link btn btn-social">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a href="#" class="footer-link btn btn-social">
+                <i class="fa fa-linkedin"></i>
+            </a>
+        </div>
+        <div class="col-lg-4">
+            <a href="#" class="footer-link">Privacy Policy</a>
+            <a href="#" class="footer-link">Terms of Use</a>
         </div>
     </footer>
 </body>
